@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<defs>
+  <filter id="worn" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="37" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="44" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 1.9" result="speckle"/>
+    <feComposite in="rough" in2="speckle" operator="in"/>
+  </filter>
+  <path id="top" d="M 30 100 A 70 70 0 0 1 170 100"/>
+  <path id="bot" d="M 26 100 A 74 74 0 0 0 174 100"/>
+</defs>
+<g filter="url(#worn)" fill="none" stroke="#2B6439" color="#2B6439" opacity="0.92">
+<circle cx="100" cy="100" r="93" stroke-width="3"/>
+  <circle cx="100" cy="100" r="86" stroke-width="6" stroke-dasharray="2 5"/>
+  <circle cx="100" cy="100" r="76" stroke-width="1.8"/>
+  
+  <text font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="16" letter-spacing="2.4" fill="currentColor" stroke="none" text-anchor="middle"><textPath href="#top" startOffset="50%">BILAR</textPath></text>
+  <text font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="14" letter-spacing="2.2" fill="currentColor" stroke="none" text-anchor="middle" dominant-baseline="hanging"><textPath href="#bot" startOffset="50%">MAHOGANY FOREST</textPath></text>
+  <path d="M58 92 C70 106 69 128 58 136 C47 128 46 106 58 92 Z" fill="currentColor" stroke="none"/>
+  <path d="M58 136 V146" stroke-width="2.6"/>
+  <path d="M74 80 C86 94 85 128 74 136 C63 128 62 94 74 80 Z" fill="currentColor" stroke="none"/>
+  <path d="M74 136 V146" stroke-width="2.6"/>
+  <path d="M126 80 C138 94 137 128 126 136 C115 128 114 94 126 80 Z" fill="currentColor" stroke="none"/>
+  <path d="M126 136 V146" stroke-width="2.6"/>
+  <path d="M142 92 C154 106 153 128 142 136 C131 128 130 106 142 92 Z" fill="currentColor" stroke="none"/>
+  <path d="M142 136 V146" stroke-width="2.6"/>
+  <path d="M92 146 L98 112 H102 L108 146" fill="currentColor" stroke="none"/>
+  <path d="M52 146 H148" stroke-width="3"/>
+</g>
+</svg>

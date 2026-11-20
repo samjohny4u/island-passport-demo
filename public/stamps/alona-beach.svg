@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<defs>
+  <filter id="worn" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="29" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="36" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 1.9" result="speckle"/>
+    <feComposite in="rough" in2="speckle" operator="in"/>
+  </filter>
+  <path id="top" d="M 30 100 A 70 70 0 0 1 170 100"/>
+  <path id="bot" d="M 26 100 A 74 74 0 0 0 174 100"/>
+</defs>
+<g filter="url(#worn)" fill="none" stroke="#5B3A8C" color="#5B3A8C" opacity="0.92">
+<path d="M100.0 8.0 L109.4 16.5 L120.5 10.3 L127.7 20.7 L139.9 17.1 L144.7 28.9 L157.4 28.1 L159.4 40.6 L171.9 42.6 L171.1 55.3 L182.9 60.1 L179.3 72.3 L189.7 79.5 L183.5 90.6 L192.0 100.0 L183.5 109.4 L189.7 120.5 L179.3 127.7 L182.9 139.9 L171.1 144.7 L171.9 157.4 L159.4 159.4 L157.4 171.9 L144.7 171.1 L139.9 182.9 L127.7 179.3 L120.5 189.7 L109.4 183.5 L100.0 192.0 L90.6 183.5 L79.5 189.7 L72.3 179.3 L60.1 182.9 L55.3 171.1 L42.6 171.9 L40.6 159.4 L28.1 157.4 L28.9 144.7 L17.1 139.9 L20.7 127.7 L10.3 120.5 L16.5 109.4 L8.0 100.0 L16.5 90.6 L10.3 79.5 L20.7 72.3 L17.1 60.1 L28.9 55.3 L28.1 42.6 L40.6 40.6 L42.6 28.1 L55.3 28.9 L60.1 17.1 L72.3 20.7 L79.5 10.3 L90.6 16.5 L100.0 8.0 Z" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="100" cy="100" r="70" stroke-width="1.8"/>
+  <text x="100" y="62" font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="2.4" fill="currentColor" stroke="none" text-anchor="middle">ALONA BEACH</text>
+  <path d="M70 118 A26 26 0 0 1 122 118 Z" fill="currentColor" stroke="none"/>
+  <path d="M96 84 V76 M78 92 L72 86 M114 92 L120 86" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M134 128 Q128 102 136 82" stroke-width="3" stroke-linecap="round"/>
+  <path d="M136 82 Q122 74 114 82 M136 82 Q150 72 158 80 M136 82 Q132 68 140 62 M136 82 Q146 88 150 98" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M56 130 q9 -6 18 0 t18 0 t18 0 t18 0 t18 0 t18 0" stroke-width="2.6"/>
+  <text x="100" y="152" font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="12" letter-spacing="3" fill="currentColor" stroke="none" text-anchor="middle">PANGLAO</text>
+</g>
+</svg>

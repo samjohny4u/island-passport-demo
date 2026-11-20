@@ -1,0 +1,80 @@
+[
+  {
+    "id": "chocolate-hills",
+    "name": "Chocolate Hills",
+    "town": "Carmen",
+    "blurb": "Over a thousand grassy limestone domes that turn cocoa brown in the dry season.",
+    "lng": 124.1395,
+    "lat": 9.8296,
+    "ink": "#6E3A1F",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chocolate_Hills_Carmen_Bohol_2019.jpg/960px-Chocolate_Hills_Carmen_Bohol_2019.jpg",
+    "credit": "Wolfgang Hägele",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chocolate_Hills_Carmen_Bohol_2019.jpg"
+  },
+  {
+    "id": "tarsier",
+    "name": "Tarsier Sanctuary",
+    "town": "Corella",
+    "blurb": "Home of the Philippine tarsier, a palm-sized primate with eyes bigger than its brain.",
+    "lng": 123.9597,
+    "lat": 9.6886,
+    "ink": "#34428A",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Philippine_tarsier_%28Carlito_syrichta_fraterculus%29_Bohol.jpg/960px-Philippine_tarsier_%28Carlito_syrichta_fraterculus%29_Bohol.jpg",
+    "credit": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Philippine_tarsier_(Carlito_syrichta_fraterculus)_Bohol.jpg"
+  },
+  {
+    "id": "loboc-river",
+    "name": "Loboc River",
+    "town": "Loboc",
+    "blurb": "A jade-green river lined with nipa palms, cruised slowly on floating bamboo rafts.",
+    "lng": 124.0306,
+    "lat": 9.6383,
+    "ink": "#1D6A70",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Loboc_River_01.jpg/960px-Loboc_River_01.jpg",
+    "credit": "Renz Rueda",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_01.jpg"
+  },
+  {
+    "id": "baclayon-church",
+    "name": "Baclayon Church",
+    "town": "Baclayon",
+    "blurb": "A coral-stone church from 1727, one of the oldest in the Philippines.",
+    "lng": 123.9127,
+    "lat": 9.6227,
+    "ink": "#9C2A33",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Baclayon_Church_Bohol_4.jpg/960px-Baclayon_Church_Bohol_4.jpg",
+    "credit": "Philip Nalangan",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baclayon_Church_Bohol_4.jpg"
+  },
+  {
+    "id": "alona-beach",
+    "name": "Alona Beach",
+    "town": "Panglao",
+    "blurb": "A kilometre of white sand on Panglao, with house reefs a short swim from shore.",
+    "lng": 123.774,
+    "lat": 9.549,
+    "ink": "#5B3A8C",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alona_Beach%2C_Panglao_Island_%282052856874%29.jpg/960px-Alona_Beach%2C_Panglao_Island_%282052856874%29.jpg",
+    "credit": "yeowatzup",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alona_Beach,_Panglao_Island_(2052856874).jpg"
+  },
+  {
+    "id": "bilar-forest",
+    "name": "Bilar Man-made Forest",
+    "town": "Bilar",
+    "blurb": "Two kilometres of planted mahogany that close over the road like a green tunnel.",
+    "lng": 124.082,
+    "lat": 9.7036,
+    "ink": "#2B6439",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bilar_Man-Made_Forest.jpg/960px-Bilar_Man-Made_Forest.jpg",
+    "credit": "Lawrence Ruiz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bilar_Man-Made_Forest.jpg"
+  }
+]

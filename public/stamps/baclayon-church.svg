@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<defs>
+  <filter id="worn" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="23" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="30" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 1.9" result="speckle"/>
+    <feComposite in="rough" in2="speckle" operator="in"/>
+  </filter>
+  <path id="top" d="M 30 100 A 70 70 0 0 1 170 100"/>
+  <path id="bot" d="M 26 100 A 74 74 0 0 0 174 100"/>
+</defs>
+<g filter="url(#worn)" fill="none" stroke="#9C2A33" color="#9C2A33" opacity="0.92">
+<path d="M100 6 L166 34 L194 100 L166 166 L100 194 L34 166 L6 100 L34 34 Z" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M100 20 L156 44 L180 100 L156 156 L100 180 L44 156 L20 100 L44 44 Z" stroke-width="1.6"/>
+  <text x="100" y="54" font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="16" letter-spacing="3" fill="currentColor" stroke="none" text-anchor="middle">BACLAYON</text>
+  <path d="M62 140 V96 L92 74 L122 96 V140 Z" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 140 V116 Q92 102 102 116 V140" fill="currentColor" stroke="none"/>
+  <circle cx="92" cy="92" r="5" stroke-width="2.2"/>
+  <path d="M122 140 V82 H144 V140 M122 82 L133 68 L144 82" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="128" y="92" width="10" height="12" rx="5" fill="currentColor" stroke="none"/>
+  <path d="M52 140 H154" stroke-width="3"/>
+  <text x="100" y="160" font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="12" letter-spacing="2.4" fill="currentColor" stroke="none" text-anchor="middle">EST. 1727</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<defs>
+  <filter id="worn" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="3" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="10" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 1.9" result="speckle"/>
+    <feComposite in="rough" in2="speckle" operator="in"/>
+  </filter>
+  <path id="top" d="M 30 100 A 70 70 0 0 1 170 100"/>
+  <path id="bot" d="M 26 100 A 74 74 0 0 0 174 100"/>
+</defs>
+<g filter="url(#worn)" fill="none" stroke="#6E3A1F" color="#6E3A1F" opacity="0.92">
+<circle cx="100" cy="100" r="93" stroke-width="6"/>
+  <circle cx="100" cy="100" r="80" stroke-width="1.8"/>
+  
+  <text font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="2.4" fill="currentColor" stroke="none" text-anchor="middle"><textPath href="#top" startOffset="50%">CHOCOLATE HILLS</textPath></text>
+  <text font-family="'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="13" letter-spacing="2.2" fill="currentColor" stroke="none" text-anchor="middle" dominant-baseline="hanging"><textPath href="#bot" startOffset="50%">CARMEN · BOHOL</textPath></text>
+  <circle cx="100" cy="100" r="52" stroke-width="2.4"/>
+  <path d="M52 118 Q66 82 82 114 Q96 70 116 112 Q130 86 148 118 Z" fill="currentColor" stroke="none"/>
+  <path d="M50 124 H150" stroke-width="3"/>
+  <path d="M58 131 H142" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <circle cx="124" cy="76" r="7" stroke-width="2.4"/>
+</g>
+</svg>

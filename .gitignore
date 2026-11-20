@@ -1,0 +1,8 @@
+node_modules
+.next
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+capture/
+.claude/
+public/maplibre/
